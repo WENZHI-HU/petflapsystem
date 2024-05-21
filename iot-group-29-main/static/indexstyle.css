@@ -1,0 +1,103 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: #f4ab45;
+}
+
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 2em;
+    padding: 30px 60px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* --------------- header starts here ----------- */
+
+header{
+    background-color: #fff;
+    position: sticky;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    box-shadow: 0 .7rem 1rem rgba(0,0,0,.1);
+    padding: 1.2rem;
+}
+
+
+
+header .logo{
+    font-size: 3.2rem;
+    color:var(--blue);
+    font-weight: bolder;
+}
+
+header .logo span{
+    color:var(--brick);
+}
+
+/* ----- navbar ------ */
+.navbar a{
+    font-size: 1.5rem;
+    padding:0 1.5rem;
+    color:#666;
+}
+
+
+header #toggler{
+    display: none;
+}
+
+header .bars{
+    font-size: 3rem;
+    color:var(--greyGen);
+    border-radius: .6rem;
+    padding:.6rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+header .diagrams a{
+    margin-left: 1.5rem;
+    font-size: 2.5rem;
+    color:var(--greyGen);
+}
+
+.flex{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}

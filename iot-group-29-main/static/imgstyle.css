@@ -1,0 +1,93 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 2em;
+    padding: 30px 60px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* ---------- gallery START HERE ------------------ */
+
+.gallery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap:1.6rem;
+}
+
+.gallery .box-container .box{
+    border-radius: .6rem;
+    position: relative;    
+    text-align: center;
+    flex:1 1 10rem;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,.3);
+    border:.1rem solid rgba(0,0,0,.1);
+}
+
+
+.gallery .box-container .box .image{
+    overflow:hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding: 1.2rem;
+}
+
+
+.gallery .box-container .box .image img{
+    height:9rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.6);
+    
+}
+
+
+.gallery .btn{
+    border-radius: 5rem;
+    padding:1rem 2.5rem;
+    color: teal;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 2.1rem; 
+    background: rgb(255, 255, 255, 0.2); 
+    backdrop-filter: blur(0.5rem);
+    box-shadow: 
+        0 .7rem 1rem rgba(0,0,0,.1),
+        0 0.5rem 1rem rgba(255, 255, 255, 0.1) inset; 
+}
+
+
+.gallery .btn:hover{
+    color: cyan
+}
